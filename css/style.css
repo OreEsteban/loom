@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: "Poppins";
+	
+}
+
+:root{
+	--color-azul: #58BFCD;
+	--color-white: #fff;
+	--color-anaranjado: #fd654f;
+	--color-link: #2653E3;
+	--color-morado: #ad0cf6;
+	--color-amarillo: #f6e900;
+	--color-rojo: #f83a44;
+}
+
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	color: #888585;
+}
+
+header{
+	padding: 20px 30px;
+	border-bottom: 1px solid #ddd;
+	background-color: var(--color-azul);
+}
+header img{
+	width: 100px;
+}
+
+header .collapse .nav-item{
+	font-size: 20px;
+	color: #fff;
+}
+
+#hero h1 {
+	font-family: "Poppins", sans-serif;
+	color: var(--color-azul);
+	font-weight: 600;
+}
+
+.hero-title {
+	background-image: url("../img/4x/Recurso 2@4x.png");
+	background-position: top right;
+	background-size: auto;
+	background-color: var(--color-white);
+}
+
+#hero .main-text p{
+	font-size: 14px;
+}
+
+
+#hero .boton-top{
+	margin: 80px 0px
+}
+
+#hero .btn-light1{
+	margin: 0px 60px;
+}
+
+#hero .boton-top .btn-light-2{
+	background-color: var(--color-anaranjado);
+}
+
+#hero .btn {
+	border: 0px solid var(--color-link);
+	border-radius: 30px;
+	color: var(--color-white);
+	font-size: 20px;
+	font-weight: 500;
+	padding: 5px 25px;
+	background-color: var(--color-morado);
+}
+
+#hero .btn:hover{
+	background-color: var(--color-white);
+	border: 0px solid var(--color-morado); 
+	border-radius: 30px;
+	border-color: var(--color-morado);
+	color: var(--color-morado); 
+	
+}
+
+#explora-proyectos{
+	background-color: var(--color-azul);
+	color: var(--color-white);
+}
+
+#explora-proyectos h2{
+	font-weight: 600;
+	font-size: 50px
+}
+
+#explora-proyectos .color-pry{
+	color: var(--color-amarillo);
+}
+#explora-proyectos p{
+	font-size: 18px
+}
+#explora-proyectos .tarjeta-esteban {
+	background-color: var(--color-white);
+	padding: 60px 30px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	margin-bottom: 20px;
+	background-image: url("../img/portfolios/art-esteban.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 205px;
+	height: 195px;
+}
+#explora-proyectos .tarjeta-indiana{
+	background-color: var(--color-white);
+	padding: 60px 30px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	margin-bottom: 20px;
+	background-image: url("../img/portfolios/art-indiana.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 205px;
+	height: 195px;
+}
+#explora-proyectos .tarjeta-marcela{
+	background-color: var(--color-white);
+	padding: 60px 30px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	margin-bottom: 20px;
+	background-image: url("../img/portfolios/art-marcela.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 205px;
+	height: 195px;
+}
+#explora-proyectos .tarjeta-allison{
+	background-color: var(--color-white);
+	padding: 60px 30px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	margin-bottom: 20px;
+	background-image: url("../img/portfolios/art-allison.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 205px;
+	height: 195px;
+}
+#explora-proyectos .tarjeta-lesly{
+	background-color: var(--color-white);
+	padding: 60px 30px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	margin-bottom: 20px;
+	background-image: url("../img/portfolios/art-lesly.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 205px;
+	height: 195px;
+}
+#explora-proyectos .tarjeta-carla{
+	background-color: var(--color-white);
+	padding: 60px 30px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	margin-bottom: 20px;
+	background-image: url("../img/portfolios/art-carla.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 205px;
+	height: 195px;
+}
+#explora-proyectos .tarjeta-alejandro{
+	background-color: var(--color-white);
+	padding: 60px 30px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	margin-bottom: 20px;
+	background-image: url("../img/portfolios/art-alejandro.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 205px;
+	height: 195px;
+}
+#explora-proyectos .tarjeta-alessandro{
+	background-color: var(--color-white);
+	padding: 60px 30px;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	margin-bottom: 20px;
+	background-image: url("../img/portfolios/art-alessandro.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 205px;
+	height: 195px;
+}
+			
+#explora-proyectos h5{
+	font-size: 16px;
+	padding: 0px 0px 40px 0px;
+}
+
+#explora-proyectos .tarjeta{
+	background-color: var(--color-white);
+	padding: 40px 20px;
+	border-radius: 30px;
+	color: var(--color-white);
+	text-align: center;
+	background-image: url("../img/photography.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#explora-proyectos .fotos{
+	padding: 50px 0px;
+}
+#explora-proyectos .tarjeta-2{
+	background-color: var(--color-white);
+	padding: 40px 20px;
+	border-radius: 30px;
+	color: var(--color-white);
+	text-align: center;
+	background-image: url("../img/animation.png");
+	background-size: cover;
+	background-position: center;
+}
+
+#explora-proyectos .categorias h3{
+	font-weight: 500;
+}
+#explora-proyectos .tarjeta h3{
+	font-weight: 700;
+}
+
+#explora-proyectos .tarjeta-2 h3{
+	font-weight: 700;
+}
+#explora-comunidad h2{
+	font-weight: 600;
+	color: var(--color-azul);
+}
+
+#explora-comunidad .tarjeta {
+	background-color: var(--color-azul);
+	color: var(--color-white);
+	padding: 0px 10px 0px 0px;
+	margin-bottom: 10px;
+	display: flex;
+    align-items: center;
+    width: 85%;
+    border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#explora-comunidad .tarjeta .img-viernes{
+     width: 300px;
+     height: 150px;
+     object-fit: cover;
+	  border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+#explora-comunidad .tarjeta-contenido {
+    padding: 10px;
+    color: var(--color-white);
+	font-size: 18px;
+}
+
+#explora-comunidad .arte h2{
+	font-size: 50px;
+	font-weight: 600;
+}
+
+#explora-comunidad .arte p{
+	font-size: 18px;
+	color: black;	
+}
+
+#explora-comunidad .boton-down{
+	margin: 30px 0px
+}
+
+#explora-comunidad .btn-light1{
+	margin: 0px 30px;
+}
+
+#explora-comunidad .btn {
+	border: 0px solid var(--color-link);;
+	border-radius: 30px;
+	color: var(--color-white);
+	font-size: 18px;
+	font-weight: 700;
+	padding: 8px 75px;
+	background-color: var(--color-morado);
+}
+#explora-comunidad .btn:hover{
+	background-color: var(--color-white);
+	border: 0px solid var(--color-morado); 
+	border-radius: 30px;
+	border-color: var(--color-morado);
+	color: var(--color-morado); 
+	
+}
+
+#explora-comunidad .boton-down .btn-light-2{
+	background-color: var(--color-rojo);
+}
+
+#explora-comunidad .boton-down .btn-light-2:hover{
+	background-color: var(--color-white);
+	border: 0px solid var(--color-morado); 
+	border-radius: 30px;
+	border-color: var(--color-morado);
+	color: var(--color-rojo); 
+	
+}
+
+
+.section{
+	padding: 60px 0px;
+}
+
+footer {
+	background-color: var(--color-amarillo);
+	color: var(--color-white);
+	padding: 30px 30px;
+	background: linear-gradient(to right, #00c1d0 50%, #f6e900 50%)
+}
+
+
+footer h4 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+footer ,p {
+	font-size: 15px;
+	text-align: left;
+}
+
+
+footer li a{
+	background-color: var(--color-blanco);
+	color: var(--color-negro);
+	width: 30px;
+	display: block; 
+	text-align: center;
+	border-radius: 4px;
+	font-size: 35px;
+	padding: 0px 50px 0px 0px;
+}
+
+footer a{
+	color: var(--color-white);
+}
+
+
+#hero-title{
+	padding: 30px 0px;
+}
+
+#hero-title h2{
+	font-size: 50px;
+	color: var(--color-azul);
+	font-weight: 600;
+}
+
+#hero-title .color-herra{
+	color: var(--color-rojo);
+}
+
+#hero-title p{
+	color: black;
+	font-size: 16px;
+}
+
+#hero-title .tarjeta {
+	background-color: var(--color-azul);
+	color: var(--color-white);
+	padding: 0px 10px 0px 0px;
+	margin-bottom: 10px;
+	display: flex;
+    align-items: center;
+    width: 100%;
+    border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#hero-title .tarjeta .img-viernes{
+     width: 300px;
+     height: 150px;
+     object-fit:fill;
+	 border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+#hero-title .tarjeta-contenido {
+    padding: 10px 0px;
+    color: var(--color-white);
+	font-size: 18px;
+}
+
+#hero-title .tarjeta-contenido a{
+	color: white;
+	border-radius: 4px;
+}
+
+#hero-title .btn {
+	border: 2px solid var(--color-azul);
+	border-radius: 30px;
+	color: var(--color-azul);
+	font-size: 20px;
+	font-weight: 750;
+	padding: 5px 55px;
+	background-color: var(--color-white);
+}
+
+#hero-title .btn:hover{
+	background-color: var(--color-azul);
+	border: 2px solid var(--color-azul); 
+	border-radius: 30px;
+	color: var(--color-white); 
+	
+}
+
+#hero-title .busqueda{
+	padding: 70px 20px 0px 20px;
+}
+
+#hero-title .busqueda h4{
+	color: var(--color-azul);
+	text-align: center;
+	font-size: 28px;
+}
+
+#hero-title .busqueda p{
+	border:  2px solid var(--color-azul); 
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#hero-title .checkbox-container{
+	padding-bottom: 20px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.checkbox-text {
+    font-size: 18px;
+    color: var(--color-azul);
+	font-weight: 500;
+}
+
+header .temas{
+	text-align: center;
+	color: #FFF;
+}
+
+#hero-title-2 h2{
+	color: var(--color-azul);
+	font-size: 50px;
+	font-weight: 500;
+}
+
+#hero-title-2 p,
+#hero-title-2 h2{
+	text-align: center;
+	
+}
+
+#hero-title-2 .color-quest{
+	color: var(--color-amarillo);
+}
+
+#hero-title-2 h1 {
+	color: #58BFCD;
+	font-weight: 600;
+}
+
+#hero-title-2 .color-pry {
+	font-color: #f6e900;
+	
+}
+
+#hero-title-2 {
+	text-align: center;
+}
+
+
+#dudas .btn-light{
+	border: 3px solid #58BFCD;
+	border-radius: 11;
+	color: #58BFCD;
+	font-weight: 700px;
+	padding: 10px 60px
+}
+
+#dudas {
+	text-align: center;
+	color: #58BFCD;
+	font-weight: 800;
+}
+
+#dudas .preguntas{
+	padding-bottom: 20px;
+}
+
+#dudas .mas-quest h2{
+	font-weight: 700;
+	font-size: 40px;
+}
+#dudas .mas-quest h4{
+	text-align: center;
+	font-size: 18px;
+	color: var(--color-rojo);
+	padding-top: 20px;
+}
+
+#dudas .mas-quest p{
+	border:  2px solid var(--color-azul); 
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	width: 25%;
+	margin: auto;
+}
