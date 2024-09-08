@@ -13,6 +13,7 @@
 	--color-morado: #ad0cf6;
 	--color-amarillo: #f6e900;
 	--color-rojo: #f83a44;
+	--color-negro: black;
 }
 
 body{
@@ -47,7 +48,9 @@ header .collapse .nav-item{
 	background-size: auto;
 	background-color: var(--color-white);
 }
-
+#hero .main-text{
+	padding-left: 10%;
+}
 #hero .main-text p{
 	font-size: 14px;
 }
@@ -100,7 +103,8 @@ header .collapse .nav-item{
 #explora-proyectos p{
 	font-size: 18px
 }
-#explora-proyectos .tarjeta-esteban {
+#explora-proyectos .tarjeta-esteban,
+#hero-title-3 .tarjeta-esteban{
 	background-color: var(--color-white);
 	padding: 60px 30px;
 	text-align: center;
@@ -113,7 +117,8 @@ header .collapse .nav-item{
 	width: 205px;
 	height: 195px;
 }
-#explora-proyectos .tarjeta-indiana{
+#explora-proyectos .tarjeta-indiana,
+#hero-title-3 .tarjeta-indiana{
 	background-color: var(--color-white);
 	padding: 60px 30px;
 	text-align: center;
@@ -126,7 +131,8 @@ header .collapse .nav-item{
 	width: 205px;
 	height: 195px;
 }
-#explora-proyectos .tarjeta-marcela{
+#explora-proyectos .tarjeta-marcela,
+#hero-title-3 .tarjeta-marcela{
 	background-color: var(--color-white);
 	padding: 60px 30px;
 	text-align: center;
@@ -139,7 +145,8 @@ header .collapse .nav-item{
 	width: 205px;
 	height: 195px;
 }
-#explora-proyectos .tarjeta-allison{
+#explora-proyectos .tarjeta-allison,
+#hero-title-3 .tarjeta-allison{
 	background-color: var(--color-white);
 	padding: 60px 30px;
 	text-align: center;
@@ -152,7 +159,8 @@ header .collapse .nav-item{
 	width: 205px;
 	height: 195px;
 }
-#explora-proyectos .tarjeta-lesly{
+#explora-proyectos .tarjeta-lesly,
+#hero-title-3 .tarjeta-lesly{
 	background-color: var(--color-white);
 	padding: 60px 30px;
 	text-align: center;
@@ -165,7 +173,8 @@ header .collapse .nav-item{
 	width: 205px;
 	height: 195px;
 }
-#explora-proyectos .tarjeta-carla{
+#explora-proyectos .tarjeta-carla,
+#hero-title-3 .tarjeta-carla{
 	background-color: var(--color-white);
 	padding: 60px 30px;
 	text-align: center;
@@ -178,7 +187,8 @@ header .collapse .nav-item{
 	width: 205px;
 	height: 195px;
 }
-#explora-proyectos .tarjeta-alejandro{
+#explora-proyectos .tarjeta-alejandro,
+#hero-title-3 .tarjeta-alejandro{
 	background-color: var(--color-white);
 	padding: 60px 30px;
 	text-align: center;
@@ -191,7 +201,8 @@ header .collapse .nav-item{
 	width: 205px;
 	height: 195px;
 }
-#explora-proyectos .tarjeta-alessandro{
+#explora-proyectos .tarjeta-alessandro,
+#hero-title-3 .tarjeta-alessandro{
 	background-color: var(--color-white);
 	padding: 60px 30px;
 	text-align: center;
@@ -350,7 +361,7 @@ footer ,p {
 
 footer li a{
 	background-color: var(--color-blanco);
-	color: var(--color-negro);
+	color: var(--color-blanco);
 	width: 30px;
 	display: block; 
 	text-align: center;
@@ -396,8 +407,8 @@ footer a{
 }
 
 #hero-title .tarjeta .img-viernes{
-     width: 300px;
-     height: 150px;
+     width: 400px;
+     height: 200px;
      object-fit:fill;
 	 border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
@@ -476,6 +487,10 @@ header .temas{
 	color: #FFF;
 }
 
+#hero-title-2 .main-text{
+	padding-left:20%;
+	padding-right: 20%;
+}
 #hero-title-2 h2{
 	color: var(--color-azul);
 	font-size: 50px;
@@ -492,7 +507,7 @@ header .temas{
 	color: var(--color-amarillo);
 }
 
-#hero-title-2 h1 {
+#hero-title-2 h2 {
 	color: #58BFCD;
 	font-weight: 600;
 }
@@ -508,12 +523,23 @@ header .temas{
 
 
 #dudas .btn-light{
-	border: 3px solid #58BFCD;
+	border: 1px solid var(--color-azul);
 	border-radius: 11;
 	color: #58BFCD;
 	font-weight: 700px;
-	padding: 10px 60px
+	padding: 10px 60px;
+	background-color: var(--color-azul)
 }
+
+#dudas .btn-light:hover{
+	border: 2px solid var(--color-azul);
+	border-radius: 11;
+	color: #58BFCD;
+	font-weight: 700px;
+	padding: 10px 60px;
+	background-color: white;
+}
+
 
 #dudas {
 	text-align: center;
@@ -522,7 +548,11 @@ header .temas{
 }
 
 #dudas .preguntas{
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
 }
 
 #dudas .mas-quest h2{
@@ -536,7 +566,124 @@ header .temas{
 	padding-top: 20px;
 }
 
-#dudas .mas-quest p{
+#dudas .mas-quest .navbar-light{
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	width: 25%;
+	margin: auto;
+}
+
+.accordion .accordion-body{
+	font-weight: 500;
+	font-size: 15px;
+}
+
+#hero-title-3 h2{
+	color: var(--color-azul);
+	font-weight: 600;
+	font-size: 50px;
+}
+
+
+#hero-title-3 .color-herra {
+	color: var(--color-rojo);
+	
+}
+
+#hero-title-3{
+	text-align: left;
+}
+
+#hero-title-3 .lupa{
+	border:  2px solid var(--color-azul); 
+	color: var(--color-white);
+	border-radius: 20px;
+	text-align: center;
+	width: 30%;
+	background-color: var(--color-azul);
+	margin-top: 10%;
+	margin-left: 20%;
+}
+
+#hero-title-3 .contactos{
+	color: var(--color-negro);
+}
+
+#hero-title-3 .btn{
+	background-color: var(--color-rojo);
+	color: white;
+	border-radius: 20px;
+	padding: 5px 40px;
+	margin-top: 20%;
+}
+
+#form-contact{
+	background-color: var(--color-morado);
+}
+
+#form-contact input,
+#form-contact textarea{
+	padding: 15px;
+	border: 0;
+	border-radius: 0;
+}
+
+#form-contact .btn{
+	background-color: var(--color-azul);
+	border-radius: 3;
+	padding: 15px 0;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+#form-contact .titulo-grande,
+#form-contact .subtitulo{
+	color: var(--color-white);
+}
+
+
+
+#apartados .btn-light{
+	border: 3px solid #58BFCD;
+	border-radius: 11;
+	color: #58BFCD;
+	font-weight: 700px;
+	padding: 10px 60px
+}
+
+#apartados {
+	text-align: center;
+	color: #58BFCD;
+	font-weight: 800;
+}
+
+#apartados .apartados{
+	padding-bottom: 20px;
+}
+
+#apartados .comunidad h2{
+	font-weight: 500;
+	font-size:20px;
+}
+#apartados .comunidad h4{
+	text-align: center;
+	font-size: 18px;
+	color: var(--color-rojo);
+	padding-top: 20px;
+}
+
+.comunidad .navbar-light{
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	width: 25%;
+	margin: auto;
+}
+
+
+#apartados .comunidad p{
 	border:  2px solid var(--color-azul); 
 	color: white;
 	border-radius: 10px;
@@ -544,3 +691,181 @@ header .temas{
 	width: 25%;
 	margin: auto;
 }
+
+#hero-title-4 .main-text h2{
+	color: var(--color-azul);
+}
+
+#hero-title-4 .main-text{
+	padding-left: 10%;
+}
+#hero-title-4 .main-text p{
+	color: var(--color-negro);
+}
+
+#historia{
+	background-color: var(--color-azul);
+}
+
+#historia .info-historia{
+	color: var(--color-white);
+}
+
+#historia .info-historia h2{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+#myv .mision{
+	background-color: var(--color-morado);
+	border-radius: 10px;
+	padding: 30px;
+	color: white;
+}
+
+#myv h3{
+	font-size: 40px;
+	font-weight: 600;
+}
+
+#myv .vision{
+	background-color: var(--color-anaranjado);
+	border-radius: 10px;
+	padding: 30px;
+	color: white;
+	text-align:  right;
+}
+
+#myv p{
+	font-size: 16px;
+}
+
+
+
+
+
+main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.eventos-comunidad, .proximos-eventos {
+    width: 50%;
+}
+
+.eventos-comunidad h2, .proximos-eventos h3 {
+    color: #57BFCD;
+    font-size: 28px;
+    margin-bottom: 10px;
+	
+}
+
+.proximos-eventos .evento-card img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+
+.eventos-lista{
+	
+	color: #F8F8F8;
+	
+}
+
+.botones {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.ultimos-eventos {
+    background-color: #AB05EE;
+    color: white;
+	
+}
+
+.foros-destacados {
+    background-color: #ff4242;
+    color: white;
+}
+
+.eventos-lista .evento {
+    display: flex;
+    background-color: #57BFCD;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	
+}
+
+.evento-card{
+	color: #57BFCD;
+	
+	
+	
+}
+
+.evento img {
+    width: 150px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.proximos-eventos .evento-card {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.proximos-eventos .evento-card img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.evento-info p {
+    margin-bottom: 5px;
+}
+.social a {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .eventos-comunidad, .proximos-eventos {
+        width: 100%;
+    }
+
+    header, footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
